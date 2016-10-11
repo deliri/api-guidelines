@@ -20,18 +20,17 @@ Please note that this project is released with a [Contributor Code of Conduct][c
 This is the repository for Microsoft REST API Guidelines documentation only. Please ensure that you are opening issues in the right repository.
 
 ## Recommended setup for contributing
-- Install [Atom][atom]
-- Install [atom-beautify package][atom-beautify]
+- Install [Atom][atom], [VS Code][vscode], or your favorite editor
 - Install [markdown-toc package][markdown-toc]
 
 ## Documentation styleguide
-- Always prettify markdown with [atom-beautify][atom-beautify] before committing
 - Use [GitHub-flavored markdown][gfm]
 - Use syntax-highlighted examples liberally
 - Trim trailing empty lines from HTTP requests
 - Retain only essential headers for understanding the example
 - Use valid (e.g., member names quoted), pretty-printed JSON with a 2 space indent
 - Minimize JSON payloads by using ellipses
+- Write one sentence per line.
 
 ### Example
 #### Request
@@ -86,9 +85,9 @@ Pull requests serve as the primary mechanism by which contributions are proposed
 
 Be prepared to address feedback on your pull request and iterate if necessary.
 
-[code-of-conduct]: CODE_OF_CONDUCT.md
-[new-issue]: https://github.com/Microsoft/OneAPI/issues/new
-[issue-search]: https://github.com/Microsoft/OneAPI/issues
+[code-of-conduct]: https://opensource.microsoft.com/codeofconduct/
+[new-issue]: https://github.com/Microsoft/api-guidelines/issues/new
+[issue-search]: https://github.com/Microsoft/api-guidelines/issues
 [white-house-api-guidelines]: https://github.com/WhiteHouse/api-standards/blob/master/README.md
 [topic-branch]: http://www.git-scm.com/book/en/v2/Git-Branching-Branching-Workflows#Topic-Branches
 [gfm]: https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown
@@ -96,3 +95,4 @@ Be prepared to address feedback on your pull request and iterate if necessary.
 [atom-beautify]: https://atom.io/packages/atom-beautify
 [atom]: http://atom.io
 [markdown-toc]: https://atom.io/packages/markdown-toc
+[vscode]: https://code.visualstudio.com/
